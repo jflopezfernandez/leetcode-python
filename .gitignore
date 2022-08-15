@@ -1,6 +1,11 @@
 # IDE Folders
 .vscode/
 
+# Ignore coverage information files.
+**/coverage.lcov
+**/coverage.xml
+**/.coverage
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -55,7 +55,7 @@ ignore_errors = true
 # is primarily useful in continuous integration scripts.
 #
 # Default: (empty)
-exit-zero = "false"
+exit-zero = true
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
@@ -91,7 +91,7 @@ ignore-paths = [".pytest_cache", ".mypy_cache", ".venv", ".vscode"]
 
 # Files or directories matching the regex patterns are skipped. The regex matches
 # against base names, not paths. The default value ignores Emacs file locks
-ignore-patterns = ["^\\.#"]
+ignore-patterns = ["^\\.#", "\\.venv"]
 
 # List of module names for which member attributes should not be checked (useful
 # for modules/projects where namespaces are manipulated during runtime and thus
