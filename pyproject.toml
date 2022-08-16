@@ -536,7 +536,12 @@ ignore-none = true
 ignore-on-opaque-inference = true
 
 # List of symbolic message names to ignore for Mixin members.
-ignored-checks-for-mixins = ["no-member", "not-async-context-manager", "not-context-manager", "attribute-defined-outside-init"]
+ignored-checks-for-mixins = [
+    "no-member",
+    "not-async-context-manager",
+    "not-context-manager",
+    "attribute-defined-outside-init"
+]
 
 # List of class names for which member attributes should not be checked (useful
 # for classes with dynamically set attributes). This supports the use of
