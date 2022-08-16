@@ -38,8 +38,8 @@ show_absolute_path = true
 warn_incomplete_stub = true
 warn_unused_configs = true
 
-[tool.mypy.overrides]
-module = "numpy"
+[[tool.mypy.overrides]]
+module = ["bounter", "numpy"]
 ignore_missing_imports = true
 ignore_errors = true
 
